@@ -1,0 +1,21 @@
+.appIconBox {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  padding: 30px 0 0;
+}
+
+.appIcon {
+  width: 140px;
+  height: 140px;
+  user-select: none;
+}
+
+.appTitle {
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  margin-top: 6px;
+  font-size: 2.7em;
+  color: $darkYellow;
+}

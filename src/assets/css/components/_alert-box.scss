@@ -1,0 +1,15 @@
+.alertBox {
+  position: fixed;
+  width: 90%;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 400px;
+  background: $red;
+  color: #fff;
+  padding: 18px;
+  font-size: 1.3em;
+  border-radius: 6px;
+  text-align: center;
+}

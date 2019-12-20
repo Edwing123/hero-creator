@@ -1,0 +1,35 @@
+.loadingScreen {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: $darkBlue;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loadingIcon {
+  width: 120px;
+  // transition: .2s all linear;
+  animation: beating .4s linear 0s infinite alternate;
+}
+
+.loadingText {
+  margin-top: 20px;
+  font-size: 2em;
+  color: $gray;
+}
+
+
+@keyframes beating {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

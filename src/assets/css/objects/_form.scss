@@ -1,0 +1,53 @@
+.formSection {
+  font-size: 1em;
+  overflow: hidden;
+}
+
+.formGroups {
+  margin: 40px 0 0;
+  padding: 0 10px;
+}
+
+.formGroup {
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.formInput, .formLabel {
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.formLabel {
+  color: $darkYellow;
+  margin: 0 0 6px;
+}
+
+.formInput {
+  font-family: $bodyFontFamilly;
+  padding: 10px;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: darken($gray, 12%);
+  }
+}
+
+.formTextarea {
+  min-height: 160px;
+  max-height: 220px;
+}
+
+.formButton {
+  background-color: $green;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: $bodyFontFamilly;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($green, 20%);
+  }
+}
